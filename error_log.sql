@@ -6,6 +6,7 @@ from health.errorlog
 where last_updt_t > dateadd(d,-1,getdate())
 and not msg= 'The Service Broker endpoint is in disabled or stopped state.'
 and not msg like 'Starting up database%'
+and not msg like 'Password did not match that for the login provided%'
 group by inst_n
 order by 2 desc
 
@@ -13,8 +14,9 @@ select * from health.errorlog
 where last_updt_t > dateadd(d,-1,getdate())
 and not msg= 'The Service Broker endpoint is in disabled or stopped state.'
 and not msg like 'Starting up database%'
-and inst_n like 'DCWMSQP048\SQL'
-----order by inst_n, logdate
+and not msg like '%reason: Password did not match that for the login provided%'
+and inst_n like 'DCWMSQp253\SQL'
+----order by inst_n
 
 
 select srv_n, count(*) from health.event_system
