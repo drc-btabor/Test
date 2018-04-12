@@ -1,0 +1,27 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Tabor <BTabor@datarecognitioncorp.com>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Lib/Adhoc/gen_AG_remove_db_drop.sql
+#	new file:   Lib/IDB/decom_idb_update_dashboard.sql
+#	new file:   Lib/IDB/job_dm_clientlcsPurge.sql
+#	new file:   Lib/UDB/udb_classifier.sql
+#	new file:   Lib/VUDB_Migration/gen_create_db.sql
+#	new file:   Lib/VUDB_Migration/gen_post.sql
+#	new file:   Lib/VUDB_Migration/gen_pre.sql
+#	new file:   Lib/VUDB_Migration/gen_transfer_bat.sql
+#	new file:   Lib/VUDB_Migration/udb_gen.bat
+#	new file:   Lib/VW_Migration/gen_call.bat
+#	new file:   Lib/VW_Migration/gen_create_db.sql
+#	new file:   Lib/VW_Migration/gen_master_replica.sql
+#	new file:   Lib/VW_Migration/gen_post.sql
+#	new file:   Lib/VW_Migration/gen_pre.sql
+#	new file:   Lib/VW_Migration/gen_transfer_bat.sql
+#	new file:   Lib/VW_Migration/udb_gen.bat
+#
