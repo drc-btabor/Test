@@ -27,7 +27,5 @@ where last_updt_t > dateadd(d,-1,getdate())
 and srv_n not in ('DCWRPTP011','DCWRPTP014')
 
 
-select * from health.event_application
-where last_updt_t > dateadd(d,-1,getdate())
-and srv_n not in ('DCWRPTP011','DCWRPTP014')
+
 
